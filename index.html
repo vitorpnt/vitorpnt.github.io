@@ -1,4 +1,31 @@
+<!doctype html>
 <html>
-  <h1>Seja bem vindo</h1>
-  <p>Essa é uma página de teste</p>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Seja bem vindo a meu site</h1>
+    <p>Veja esse anúncio abaixo</p>
+    <h2>Como instalar o metasploit no termux</h2>
+    <p>$ apt update
+$ apt upgrade -y
+$ pkg install wget curl openssh git -y
+$ apt install ncurses-utils
+$ source <(curl -fsSL https://kutt.it/msf)
+$ ls
+$ cd metasploit-framework
+$ ./msfconsole
+Vai dá um erro de instalação do bundle
+$ sed -i '0,/\"\/etc\/resolv.conf\"/s//\"\/data\/data\/com.termux\/files\/usr\/etc\/resolv.conf\"/' $(find . -name 'resolver.rb')
+
+$ bundle
+$ bundle install (talvez dê pra executar antes de instalar o metasploit, ou depois mesmo pra não aparecer aquele erro)
+
+gem install nokogiri -v '1.14.1'
+
+bundle update
+
+Vá para /usr/share/metasploit-frame e escreva 'gem install bundler', depois 'bundle install' e depois 'gem update --system' e ele funcionará
+</p>
+  </body>
 </html>
