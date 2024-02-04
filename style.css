@@ -8,6 +8,16 @@ h2 {
   color: blue;
 }
 
+h6 {
+  font: "Arial";
+  color: red;
+}
+
+p {
+  font: "Arial";
+  color: white;
+}
+
 body {
-  background: yellow;;
+  background: black;;
 }
